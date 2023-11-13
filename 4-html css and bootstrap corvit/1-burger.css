@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav_barr{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffc045;
+    padding: 0px 50px;
+}
+.hed{
+    background-color: #ffc045;
+    padding-left: 50px;
+}
+
+
+.col_text{
+    padding-top: 200px;
+}
+.col_text span{
+    border: dashed;
+    padding: 5px;
+    font-size: 15px;
+}
+.col_text h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+/* ------------section tasty burger ----------- */
+
+
+.tast{
+    padding:70px 100px;
+}
+.choose p span{
+    
+    background: #ffc045;
+    border: 1px solid #ffc045;
+    padding: 8px 20px;
+}
+
+/* ---------------------choose and enjoy------------ */
+
+
+
+.para{
+    margin-bottom: 50px;
+}
+.enjoy img{
+    
+    mix-blend-mode: multiply;
+}
+
+.enjoy .btn{
+    border: 1px solid red;
+    background-color: red;
+    color: #fff;
+    border-radius: 0px;
+    padding: 4px 20px;
+    margin-top: 20px;
+}
+
+/* ----------------------discover ------------------- */
+
+.cover{
+    padding-top: 80px;
+}
+.discover{
+    background-color: white;
+    box-shadow: 1px 2px 3px 5px #c7c1c1;
+}
+
+
+/* ---------------book---------------- */
+.reg{
+    padding: 50px 0px;
+}
+.register{
+    line-height: 40px;
+}
+.register input{
+    width: 45%;
+    height: 50px;
+    margin: 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(72, 69, 69);
+    padding-left: 20px;
+    outline: none;
+    
+}
+
+::-webkit-input-placeholder{
+    color: black;
+}
+
+
+/* -------------------footer-------------- */
+
+.footer{
+    color: #fff;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .col_text{
+        padding-top: 10px;
+    }
+    .col_text h1{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    
+    .tast{padding: 0px;}
+    .tasty{
+        padding: 100px;
+    }
+    .col_tasty{
+        padding-bottom: 50px;
+    }
+}
